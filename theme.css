@@ -1,0 +1,309 @@
+/* $Id: theme.css 1900 2007-06-21 flop25 $ */
+/* text color */
+BODY, H1, H2, H3, DT,
+INPUT.rateButtonSelected, #theHeader H1, #comments FORM, #theHeader, #theHeader a {
+  color:#B0CA00;	
+}
+/*#theHeader H1, #comments FORM, #theHeader, #theHeader a{
+color: #006600;
+}
+
+ backgrounds */
+BODY {
+	background-image: url(images/background.jpg);
+}
+/*
+OU METTEZ VOTRE PROPRE IMAGE AVEC / USE YOUR OWN PICTURE WITH : 
+BODY {
+	background-image: url(images/PICTURE.jpg);
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+*/
+H3, H2, .row1 {
+background-color: #76964B;
+}
+#imageHeaderBar {
+	background-image: url(images/endsection_backg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color: #76964B;
+	padding-top: 5px;
+}
+#imageToolBar {
+ background-image: url(images/section_bot_backg.jpg);
+ background-position: bottom;
+ background-repeat:repeat-x;
+ padding-bottom:5px;
+}
+.throw
+{
+background-color: #006600;
+}
+#section_in, #section_right, #imageToolBar, #admin_content {
+  background-color: #76964B;
+}
+.header_notes, .content , #autre_content{
+  background-color: #76964B;
+}
+#profile{
+background-image:url(images/tr_backg.gif);
+color:#000000;
+}
+#content {
+background:transparent;
+}
+#comments .description {
+  border-left: 2px solid #696969;
+  background-image:url(images/tr_backg.gif);
+color:#003300;
+font-weight:bold;
+}
+#comments  {
+  background-image:url(images/tr_backg.gif);
+  color:#003300;
+}
+
+/* positionnement */
+#menubar DL, #menubar DT, #the_page, BODY {
+	margin: 0px;
+	padding: 0px;
+}
+#content, .content {
+margin-right:0;
+}
+.stuffs_block {
+margin-bottom:5px!important;
+}
+/* backgrounds section right */
+#section_up_left{
+	background-image: url(images/endsection_header.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width:16px;
+	 height:23px;
+}
+#section_up, #section_up_right{
+ background-image: url(images/endsection_backg.jpg);
+ background-position:bottom;
+ background-repeat:repeat-x;
+ 	 height:23px;
+}
+#section_left{
+ background-image: url(images/section_left.jpg);
+ background-repeat:repeat-y;
+ width:16px;
+}
+#section_bottom_left{
+ background-image: url(images/section_bot_left.png);
+ background-position:top;
+ background-repeat:no-repeat;
+ width:16px;
+ height:23px;
+}
+#section_bottom, #section_bottom_right{
+ background-image: url(images/section_bot_backg.jpg);
+ background-position:top;
+ background-repeat:repeat-x;
+  height:23px;
+}
+
+/*--------menu--------------*/
+#table_content, .table_menu, #table_mbLinks, #table_mbCategories, #table_mbTags, #table_mbSpecials, #table_mbMenu, #table_mbIdentification {
+width:100%;
+border:0;
+padding:0;
+margin:0;
+}
+/* backgrounds menu */
+
+.blocmenu_up_right{
+ background-image: url(images/content_top_right.png);
+ background-repeat:no-repeat;
+ background-position:bottom;
+ width:22px;
+}
+.blocmenu_up_left{
+ background-image: url(images/content_top_left.png);
+  background-position:bottom;
+  background-repeat:no-repeat;
+ width:22px;
+}
+.blocmenu_up{
+ background-image: url(images/content_top_backg.jpg);
+   background-position:bottom;
+   background-repeat: repeat-x;
+   height:14px;
+}
+
+.blocmenu_in, .blocmenu_right, .blocmenu_left {
+	background-image: url(images/content_backg.jpg)!important;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#2c4017;
+}
+
+.blocmenu_bottom_right{
+ background-image: url(images/content_bottom_right.png);
+ background-position:top;
+ background-repeat:no-repeat;
+ width:22px;
+ height:14px;
+}
+.blocmenu_bottom_left{
+ background-image: url(images/content_bottom_left.png);
+ background-position:top;
+ background-repeat:no-repeat;
+ width:22px;
+ height:14px;
+}
+.blocmenu_bottom{
+ background-image: url(images/content_bottom_backg.png);
+ background-position:top;
+ background-repeat: repeat-x;
+  height:14px;
+}
+
+
+
+/* borders */
+/*#menubar DL, #content,
+#imageToolBar, */
+#comments DIV.comment BLOCKQUOTE {
+  border: 1px solid;
+  border-color: #91B165;
+}
+
+#theImage IMG {
+  border-color: #91B165;
+}
+
+#content UL.thumbnail IMG {
+    border: 1px solid #a0a0a0;
+}
+
+FIELDSET, INPUT, SELECT, TEXTAREA,
+#content DIV.comment  A.illustration IMG, #infos,
+#content DIV.thumbnailCategory {
+  border: 1px solid #91B165;
+}
+
+#comments DIV.comment BLOCKQUOTE {
+  border-left: 2px solid #006600;
+  background-color: #76964B;
+}
+.comment
+{  background-color: #76964B;}
+#content UL.thumbnails SPAN.wrap2 {
+  border: 1px solid #aacb87;	/* thumbnails border color and style */
+  border-radius: 4px 4px;	/* round corners with CSS3 compliant browsers */
+}
+
+#content UL.thumbnails SPAN.wrap2:hover,
+#content UL.thumbnailCategories DIV.thumbnailCategory:hover,
+#content UL.thumbnailCategories DIV.thumbnailCategory:hover A {
+  background-color: #91B165;
+  border-color: #aacb87;		/* thumbnails border color when mouse cursor is over it */
+  color: #5A7755;
+}
+.thumbLink{
+border:2px solid #aacb87;
+}
+/* links */
+A, INPUT.rateButton {
+    color: #B0CA00;
+    background: transparent;
+}
+
+A:hover, INPUT.rateButton:hover {
+    color: #D7DC76;
+}
+
+#imageToolBar A, #imageToolBar A:hover {
+    border-bottom: none;
+}
+
+A.navThumb, A.navThumb:hover {
+    border-bottom: none;
+}
+
+
+/* others */
+.pleaseNote {
+    background: #9c9c9c;
+    color: #ffff99;
+    padding: 1ex;
+    font-weight: bold;
+}
+
+#copyright A {
+color:#003300;
+font-weight: bold;
+}
+#copyright{
+	color:#003300;
+	font-weight: bold;
+	background-image:url(images/tr_backg.gif);
+	margin-right: 35%;
+	margin-left: 35%;
+}
+.infoTable a, .commentInfo{
+color:#003300;
+}
+
+.infoTable{
+background-image:url(images/tr_backg.gif);
+color:#003300;
+	font-weight: bold;
+
+}
+
+.filter {
+	background-image:url(images/tr_backg.gif);
+}
+.filter LEGEND, .filter LABEL{
+	font-weight: bold;
+	color:#003300;
+	background-color:#76964B;
+}
+#rateForm {
+background-image:url(images/tr_backg.gif);
+color:#003300;
+	font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*calendar elements*/
+SPAN.calItemEmpty { color: silver; }
+
+SPAN.calItem, SPAN.calItemEmpty
+{
+  border: 1px solid silver;
+}
+
+/* nice looking month calendar*/
+TD.calDayCellEmpty, TD.calDayCellFull { border: 1px solid #7E7262;}
+
+TD.calDayCellEmpty { color: silver; }
+
+.calBackDate { color: #000; }
+.calForeDate { color: #fff; }
+.virtual_cat { background: #fff !important; }
+.qsearch { font-size: 80%; font-style: normal; }
+#mbMenu #quicksearch > p { text-align: left; }
+#qsearchInput {
+	color: #000;
+}
+#qsearchInput:focus {
+	color: #000;
+}
+.tabsheet li,
+.tabsheet li a { color: #006600; }
+.tabsheet li a:hover { color: #858460; }
+.tabsheet li { background-color: #91B165; }
+.selected_tab { background-color: #aacb87!important;}
+ul.tabsheet { border-color: #aacb87; }
+.tabsheet li { border: 1px solid #aacb87; }
+.tabsheet li:hover { border-color: #858460 !important; }
