@@ -22,13 +22,14 @@ BODY {
 }
 */
 H2, .row1 {
-background-color: #76964B;
+background-color: #788D48;
 }
+/*
 #imageHeaderBar {
 	background-image: url(images/endsection_backg.jpg);
 	background-position:top;
 	background-repeat:repeat-x;
-	background-color: #76964B;
+	background-color: #788D48;
 	padding-top: 5px;
 }
 #imageToolBar {
@@ -37,15 +38,16 @@ background-color: #76964B;
  background-repeat:repeat-x;
  padding-bottom:5px;
 }
+*/
 .throw
 {
 background-color: #006600;
 }
 #section_in, #section_right, #imageToolBar, #admin_content {
-  background-color: #76964B;
+  background-color: #788D48;
 }
 .header_notes, .content , #autre_content{
-  background-color: #76964B;
+  background-color: #788D48;
 }
 #profile{
 background-image:url(images/tr_backg.gif);
@@ -191,10 +193,10 @@ FIELDSET, INPUT, SELECT, TEXTAREA,
 
 #comments DIV.comment BLOCKQUOTE {
   border-left: 2px solid #006600;
-  background-color: #76964B;
+  background-color: #788D48;
 }
 .comment
-{  background-color: #76964B;}
+{  background-color: #788D48;}
 #content UL.thumbnails SPAN.wrap2 {
   border: 1px solid #aacb87;	/* thumbnails border color and style */
   border-radius: 4px 4px;	/* round corners with CSS3 compliant browsers */
@@ -265,7 +267,7 @@ color:#003300;
 .filter LEGEND, .filter LABEL{
 	font-weight: bold;
 	color:#003300;
-	background-color:#76964B;
+	background-color:#788D48;
 }
 #rateForm {
 background-image:url(images/tr_backg.gif);
